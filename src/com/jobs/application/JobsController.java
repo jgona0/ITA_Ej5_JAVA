@@ -18,7 +18,7 @@ public class JobsController {
 	}
 	
 	
-	//METODOS DE CREACION DE EMPLEADOS
+	//METODOS DE CREACION DE EMPLEADOS Y VOLUNTARIOS
 	public void createBossEmployee(String name, String address, String phone, double salaryPerMonth) throws Exception{		
 		Employee boss = new Employee(name, address, phone,  salaryPerMonth, PaymentFactory.createPaymentRateBoss());
 		repository.addMember(boss);

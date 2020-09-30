@@ -4,6 +4,9 @@ import com.jobs.domain.IPaymentRate;
 
 public class PaymentFactory {
 
+	// ESTA CLASE NO IMPLEMENTA LA INTERFACE CON EL "IMPLEMENTS" PERO SI QUE LO HACE REALMENTE
+	// EN CADA METODO SOBREESCRIBIENDO EL METODO PAY DE LA INTERFACE IPaymentRate
+	
 	
 	//RATE DE MANAGER 10% MAS DE SU SUELDO
 	public static IPaymentRate createPaymentRateManager(){

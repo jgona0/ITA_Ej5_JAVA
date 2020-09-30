@@ -30,16 +30,17 @@ public abstract class AbsStaffMember {
 	public abstract void pay();
 
 
+	//GETTERS NECESARIOS
 	public String getName() {
 		return name;
 	}
 	
 	public String getAddress() {
-		return phone;
+		return address;
 	}
 
 	public String getPhone() {
-		return name;
+		return phone;
 	}
 
 	public double getTotalPaid() {
